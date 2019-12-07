@@ -1,2 +1,3 @@
 "use strict"
-var button = document.createElement("Button")
+var button = document.createElement("Button");
+document.body.appendChild(button);
