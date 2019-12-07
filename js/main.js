@@ -1,6 +1,6 @@
 "use strict"
 welcomeButton = document.body.getElementById('welcome1');
-welcomeButton.addEventListener("click",openPage());
+welcomeButton.addEventListener("click",openPage(event, 'welcome'));
 //Tabs and Night mode //////////////////////////////////////////////////////
 let sites = {
 	
