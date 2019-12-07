@@ -1,1 +1,195 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
 
+body {
+  margin: 2px;
+}
+
+body.night-mode {
+  background: black;
+  -webkit-filter: invert(1) hue-rotate(180deg);
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.g-recaptcha div {
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+#blank {
+  display: block;
+}
+
+#togBut {
+  transition: all 0.2s ease 0s;
+  float: right;
+}
+
+#togBut:hover {
+  background: black;
+  color: white;
+}
+
+#togBut:active {
+  background: black;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+#logout1 {
+  float: right;
+  border: 1px solid #DCDCDC;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+#logout1:hover {
+  background-color: red;
+  color: white;
+}
+
+#logout {
+  float: right;
+}
+
+#logout:hover {
+  background-color: red;
+  color: white;
+}
+
+#signin-div {
+  text-align: center;
+}
+
+#signinbutton {
+  width: 220px;
+  cursor: pointer;
+}
+
+.tab {
+ overflow: hidden;
+ border: none;
+ background-color: aliceblue;
+ margin: 0px; 
+ border-radius: 10px;
+}
+
+.tab button {
+ background-color: inherit;
+ float: left;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ padding: 10px 15px;
+ transition: 0.3s;
+ font-size: medium;
+}
+
+.tab button:hover {
+  background-color: #87ceeb99;
+}
+
+.tab button.active {
+ background-color: skyblue;
+}
+
+.tabcontent {
+ display: none;
+ border: 1px solid whitesmoke;
+ margin-top: 0px;
+ padding: 0px;
+ animation: fadeEffect .3s;
+ background: rgb(254,254,254);
+ border-radius: 10px;
+ color: black;
+}
+
+.tabcontent text {
+  right: 20px;
+}
+/* Below is the second set of tabs */
+
+.tab1 {
+ overflow: hidden;
+ border: none;
+ background-color: aliceblue;
+  margin-top: 2px;
+ border-radius: 10px;
+}
+
+.tab1 button {
+ background-color: inherit;
+ float: left;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ padding: 5px 15px;
+ transition: 0.3s;
+ font-size: small;
+}
+
+.tab1 button:hover {
+  background-color: #87ceeb99;
+}
+
+.tab1 button.active {
+ background-color: skyblue;
+}
+
+.tabcontent1 {
+ display: none;
+ padding: 0px 0px;
+ border: 1px solid #DCDCDC;
+ border-top: none;
+ animation: fadeEffect .3s;
+ border-radius: 10px;
+ background-color: #fff;
+ background: transparent;
+}
+
+iframe {
+  border-radius: 10px;
+  border: 1px solid #DCDCDC;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.topright {
+  float: right;
+  float: top;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.site {
+  width: -webkit-fill-available;
+  height: 83vmin;
+}
+
+.hidden {
+ display: none;
+}
+
+.visible {
+ display: block;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: aliceblue; 
+  color: #696969;
+  text-align: center;
+  font-size: 10px;
+}
