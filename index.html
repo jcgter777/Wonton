@@ -29,5 +29,28 @@
   <title>Brain</title>
   <div id="maindiv">Wonton sucks</div>
   <p>Test</p>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyAcBw0G0eD8tDfQ_Kw8ZVP49DPPFSdGxSg",
+      authDomain: "wonton-42069.firebaseapp.com",
+      databaseURL: "https://wonton-42069.firebaseio.com",
+      projectId: "wonton-42069",
+      storageBucket: "wonton-42069.appspot.com",
+      messagingSenderId: "468488901918",
+      appId: "1:468488901918:web:4f7efd1cc057385309e50f",
+      measurementId: "G-GQFTFQRYBR"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
 </body>
 </html>
