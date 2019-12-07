@@ -1,5 +1,4 @@
 "use strict"
-var button = document.createElement("Button");
 
 //Tabs and Night mode //////////////////////////////////////////////////////
 let sites = {
